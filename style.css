@@ -1,0 +1,56 @@
+body {
+  font-family: 'Calibri', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video {
+  margin: 20px;
+  max-width: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.video img {
+  width: 100%;
+  height: auto;
+}
+
+.video h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+.video a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video a:hover {
+  color: #666;
+}
